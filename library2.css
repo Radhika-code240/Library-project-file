@@ -1,0 +1,829 @@
+*{
+    margin:0;
+    padding: 0;
+    
+    border: border-box;
+   
+}
+.navbar{
+    height: 70px;
+    width: 2000px;
+    background-color:#002147 ;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    opacity: 1;
+    
+   
+    
+}
+.add-first{
+    color: white;
+    font-size: 14px;
+    
+}
+.add-second{
+    color:white;
+    font-size: 14px;
+}
+
+.nav-number{
+    margin-left: 50px;
+}
+.nav-address{
+    margin-left: 10px;
+}
+a.top{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 12px;
+}
+a.top:hover{
+    color: bisque;
+}
+#q{
+    color: white;
+    font-size: 17px;
+}
+#q ul{
+    display: inline-flex;
+    list-style: none;
+    margin-left: 650px;
+
+}
+#q ul li{
+    width: 90px;
+    margin: 10px;
+    padding: 17px;
+}
+#q ul li a{
+    text-decoration: none;
+    color: white;
+}
+ #q ul li a:hover{ 
+    height: 20px;
+    width: 20px;
+    background-color: rgb(91, 91, 222);
+    border-radius: 5px;
+    
+
+}
+
+.sub-1{
+    display: none;
+
+}
+#q ul li:hover .sub-1{
+    display: block;
+    position: absolute;
+    background-color: rgb(18, 18, 78);
+    margin-top: 15px;
+    margin-left: 0px;
+}
+#q ul li:hover .sub-1 ul{
+    display: block;
+    margin: 10px;
+}
+#q ul li:hover .sub-1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    text-align: center;  
+}
+.sub-2{
+    display: none;
+}
+#q ul li:hover .sub-2{
+    display: block;
+    position: absolute;
+    background-color: rgb(18, 18, 78);
+    margin-top: 15px;
+    margin-left: 0px;
+
+}
+#q ul li:hover .sub-2 ul{
+    display: block;
+    margin: 10px;
+}
+#q ul li:hover .sub-2 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    text-align: center;  
+}
+.sub-3{
+    display: none;
+}
+#q ul li:hover .sub-3{
+    display: block;
+    position: absolute;
+    background-color: rgb(18, 18, 78);
+    margin-top: 15px;
+    margin-left: 0px;
+
+}
+#q ul li:hover .sub-3 ul{
+    display: block;
+    margin: 10px;
+}
+#q ul li:hover .sub-3 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    text-align: center;  
+}
+.sub-4{
+    display: none;
+}
+#q ul li:hover .sub-4{
+    display: block;
+    position: absolute;
+    background-color: rgb(18, 18, 78);
+    margin-top: 15px;
+    margin-left: 0px;
+
+}
+#q ul li:hover .sub-4 ul{
+    display: block;
+    margin: 10px;
+}
+#q ul li:hover .sub-4 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    text-align: center;  
+}
+.sub-5{
+    display: none;
+}
+#q ul li:hover .sub-5{
+    display: block;
+    position: absolute;
+    background-color: rgb(18, 18, 78);
+    margin-top: 15px;
+    margin-left: 0px;
+
+}
+#q ul li:hover .sub-5 ul{
+    display: block;
+    margin: 10px;
+}
+#q ul li:hover .sub-5 ul li{
+    width: 50px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    text-align: center;  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.image{
+    margin-left: 45%;
+    position: absolute;
+    top: 70px;
+}
+.hero-section{
+    background-image: url(janko-ferlic-sfL_QOnmy00-unsplash.jpg);
+    height: 450px;
+    width: 1535px;
+    opacity: 0.9;
+    background-size: cover; 
+    position: relative;
+    top: 170px;
+    filter: blur(2px);
+    
+    
+    
+
+
+}
+.hero-message{
+    position: absolute;
+    top: 300px;
+    left: 36%;
+
+    color:white;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 8px 8px 8px rgb(42, 7, 7);
+    
+}
+
+
+
+
+    
+
+.box{
+    display: flex;
+    height: 30px;
+    width: 400px;
+    cursor: pointer;
+    padding: 10px 20px;
+    background: gold;
+    border-radius: 30px;
+    box-shadow: 0 10px 25px rgba(0, 0,0, 0.8);
+}
+.box:hover input{
+    width: 400px;
+    
+}
+.box input{
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+
+}
+
+.what{
+    position: absolute;
+    top: 650px;
+    left: 38%;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    
+}
+button{
+    color: blue;
+    background: scroll;
+    border: none;
+}
+.A{
+    height: 400px;
+    width: 300px;
+    background-image: url(rare.jpg);
+    background-size: cover;
+    border-radius: 30px;
+    position: absolute;
+    top: 800px;
+    left: 20px;
+
+
+}
+
+.R{
+    position:absolute;
+    top: 870px;
+    left: 370px;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    color: black;
+    animation-name: R;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+}
+/* @keyframes R{
+    from{
+        color: black;
+    }
+    to{
+        color: 
+        rgb(255, 255, 255);
+    }
+
+} */
+.S{
+    height: 400px;
+    width: 300px;
+    background-image: url(section\ of\ lib.jpg);
+    background-size: cover;
+    position: absolute;
+    left: 1150px;
+    top:700px;
+    border-radius: 30px;
+
+
+
+}
+
+.P{
+    position: absolute;
+    top:900px;
+    left: 830px;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    animation-name:P ;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+
+}
+/* @keyframes P{
+    from{
+        color: black;
+    }
+    to{
+        color: 
+        rgb(255, 255, 255);
+    } */
+
+.T{
+    height: 400px;
+    width: 300px;
+    background-image: url(newslib.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 1250px;
+    left: 350px;
+    border-radius: 30px;
+}
+.V{
+    position: absolute;
+    top: 1300px;
+    left: 15px;
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    animation-name:V ;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+
+}
+/* @keyframes V{
+    from{
+        color: black;
+    }
+    to{
+        color: 
+        rgb(255, 255, 255);
+    }
+} */
+ .W{
+    height: 400px;
+    width: 300px;
+    position: absolute;
+    top: 1250px;
+    left: 800px;
+    background-image: url(contilib.JPG);
+    background-size: cover;
+    border-radius: 30px;
+
+ }
+ .Q{
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 1300px;
+    left:1200px;
+    text-align: center;
+ }
+ .E{
+    position: absolute;
+    top:1750px ;
+    word-spacing: 20px;
+    color: red;
+    
+    
+ }
+ .O{
+    position: absolute;
+    top: 1850px;
+    left: 30px;
+ }
+ .N{
+    color:red;
+    margin-left: 30px;
+    font-size: 30px;
+    text-decoration: underline;
+ }
+ .L{
+    color: black;
+    font-size: 17px;
+    text-decoration:none;
+
+ }
+ .U{
+    position: absolute;
+    top: 1850px;
+    left: 1100px;
+
+
+
+
+ }
+.U{
+    height:650px;
+    width: 270px;
+    background-color: #002147;
+    padding: 15px;
+}
+.mom{
+    color: wheat;
+    font-size: 23px;
+    text-decoration: underline;
+}
+hr.I{
+    border-top: 1px dashed yellow;
+   
+}
+a.it{
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+}
+.rak{
+    position: absolute;
+    top: 2200px;
+}
+.mil{
+    font-size: 30px;
+    margin-left: 40px;
+    color: red;
+    text-decoration: underline;
+}
+.tip{
+    display: flex;
+    margin-left: 30px;
+    margin-top: 30px;
+    
+}
+a.tol{
+    height: 90px;
+
+    width: 90px;
+    border: 2px solid white;
+    font-size: 20px;
+    margin-right: 75px;
+    background-color: ;
+    color: black;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgb(245, 249, 0);
+    animation-name: aksh;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.mip{
+    height: 90px;
+
+    width: 97px;
+    border: 2px solid white;
+    font-size: 20px;
+    margin-right: 75px;
+    color: black;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgb(245, 249, 0);
+    animation-name: aksh;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    
+
+}
+.lil{
+    height: 90px;
+
+    width: 97px;
+    border: 2px solid white;
+    font-size: 20px;
+    margin-right: 75px;
+    color: black;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgb(245, 249, 0);
+    animation-name: aksh;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.pot{
+    height: 90px;
+
+    width: 98px;
+    border: 2px solid white;
+    font-size: 20px;
+    margin-right: 75px;
+    color: black;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 10px 10px 10px rgb(245, 249, 0);
+    animation-name: aksh;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes aksh{
+    form{
+        box-shadow:10px 10px 10px rgb(245, 249, 0) ;
+    }
+    to{
+        box-shadow: 15px 15px 15px rgb(231, 142, 9);
+    }
+}
+#duggu{
+    position: absolute;
+    top: 2500px;
+    left: 40px;
+
+
+
+
+
+
+}
+.X{
+    font-size: 25px;
+    color: red;
+    text-decoration: underline;
+
+}
+
+#td{
+    background-color: #002147;
+    height: 360px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    top: 3900px;
+    border-top-left-radius: 150px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    
+
+}
+.no{
+    
+    margin-left: 100px;
+    margin-top: 30px;
+
+}
+
+
+#opp{
+
+    position:relative;
+    bottom: 205px;
+    left: 350px;
+
+
+}
+
+#ipp{
+    position: relative
+    ;
+    bottom: 410px;
+    left: 680px;
+}
+
+#lppp{
+    position: relative;
+    bottom: 600px;
+    left: 950px;
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+/* #cool{
+    margin-left: 170px;
+   
+}
+#right{
+    margin-left: 170px;
+}
+#tea{
+    margin-left: 100px;
+} */
+
+
+.x{
+    position: absolute;
+    top: 3300px;
+    height: 550px;
+    width: 1535px;
+    background-image: url(pexels-ironic-695657.jpg);
+    background-size: cover;
+}
+
+h1{
+    color: black;
+    word-spacing: 15px;
+    margin-left: 30%;
+    margin-top: 20px;
+}
+
+#s{
+    display: flex;
+    
+}
+table.p{
+    border: 4px solid blue;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    border-spacing: 5px;
+    background-color: greenyellow;
+    box-shadow: 10px 10px 10px rgb(181, 169, 148);
+    margin-left: 300px;
+    margin-top: 40px;
+    animation:  table1 4s 2s infinite alternate-reverse;
+    
+   
+}
+.p tbody tr td{
+    border:2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgb(103, 102, 102);
+
+
+}
+table.e{
+    border: 4px solid blue;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    border-spacing: 5px;
+    background-color: rgb(9, 199, 236);
+    box-shadow: 10px 10px 10px rgb(181, 169, 148);
+    
+    margin-top: 40px;
+    margin-left: 40px;
+    animation:  table2 4s 2s infinite alternate-reverse;
+
+}
+.e tbody tr td{
+    border:2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgb(103, 102, 102);
+
+
+}
+
+table.m{
+    border: 4px solid blue;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    padding: 10px;
+    border-spacing: 5px;
+    background-color: rgb(244, 204, 6);
+    box-shadow: 10px 10px 10px rgb(181, 169, 148);
+    margin-left: 40px;
+    margin-top: 40px;
+    animation:  table3 4s 2s infinite alternate-reverse;
+    
+
+
+
+}
+table.p:hover{
+    background-color: aliceblue;
+}
+table.e:hover{
+    background-color: aliceblue;
+}
+table.m:hover{
+    background-color: aliceblue;
+}
+
+
+.m tbody tr td{
+    border:2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 5px 5px 5px rgb(103, 102, 102);
+
+
+}
+/* @keyframes table1{
+    from{
+        background-color: greenyellow ;
+    }
+    to{
+        background-color:rgb(117, 193, 3);
+    }
+    
+}
+@keyframes table2{
+    from{
+        background-color: rgb(9, 199, 236);
+    }
+    to{
+        background-color: rgb(4, 159, 189);
+    }
+}
+@keyframes table3{
+    from{
+        background-color: rgb(244, 204, 6);
+    }
+    to{
+        background-color:rgb(197, 164, 3);
+    } */
+/* } */
+
+/* a.h{
+    text-decoration: none;
+    color: wheat;
+}
+#yes{
+    color: yellowgreen;
+}
+a.k{
+    text-decoration: none;
+    color: wheat;
+}
+#hot{
+    color: yellowgreen;
+}
+a.z{
+    text-decoration: none;
+    color: wheat;
+}
+#left{
+    color: yellowgreen;
+}
+a.ni{
+    text-decoration: none;
+    color: wheat;
+}
+#cofee{
+    color: yellowgreen;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+.ft{
+    position:absolute;
+    top: 2800px;
+    left: 260px;
+}
+
+
+
+
+
+
+
+
+
+h2{
+    color: greenyellow;
+}
